@@ -1,17 +1,34 @@
 package se.lexicon;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// Vecka 3 - Lektion 1 -  https://www.youtube.com/watch?v=vJxaoGQ1dnQ
+
+// vad är ett block?
+// varför indentering?
+// få mer förståelse
+
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        int nr1 = 10;
+        int nr2 = 15;
+
+        if (nr1 > nr2){
+            int nr3 = nr1 + nr2;
+
         }
+        // vi kommer inte åt vår INT nr 3 eftersom den inte existerar utanför vår if sats och dess kodblock
+        int nr4 = nr3;
+
+
+        if(nr1 != nr2){
+            System.out.println("hej");
+        }
+
+
+
+
+
+
     }
 }
